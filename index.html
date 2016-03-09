@@ -12,6 +12,7 @@
       <div ng-controller='ContactController as contact'>
         <div ng-controller='StaffController as staff'>
           <h1>Contacts: </h1>
+          <button ng-click='contact.changeName()'>change name</button>
             <p>Hello, {{ contact.name }}! </p>
             <p>Your contact info is:</p>
             <p>Email: {{ contact.email }}</p>

@@ -8,6 +8,14 @@ function ContactController() {
     vm.name = "Somethign else!"
   }
 
+  this.changeEmail = function() {
+    vm.email = "don'tcontactme@gmail.com"
+  }
+
+  this.changePhone = function() {
+    vm.phone = '345'
+  }
+
 }
 
 angular
